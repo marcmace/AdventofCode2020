@@ -12,8 +12,9 @@ day3 <- function(colmove, rowmove) {
     while (i <= nrow(geo)) {
         if (geo[i,j]== "#") {
             trees <- trees + 1
-            geo[i,j] <- "X"
-        } else geo[i,j] <- "O"
+#            geo[i,j] <- "X"
+        }
+#        else geo[i,j] <- "O"
         i <- i + rowmove
         j <- (j + colmove - 1) %% ncol(geo) + 1
     }
