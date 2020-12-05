@@ -1,4 +1,4 @@
-input <- readLines(paste(getwd(),"/day04_input.txt", sep=""))
+input <- readLines(paste(getwd(),"/day04/day04_input.txt", sep=""))
 
 #byr (Birth Year)
 #iyr (Issue Year)
